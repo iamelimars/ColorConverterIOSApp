@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907C60D81DF10BCB00528949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60D71DF10BCB00528949 /* main.m */; };
+		907C60DB1DF10BCB00528949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DA1DF10BCB00528949 /* AppDelegate.m */; };
+		907C60DE1DF10BCB00528949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DD1DF10BCB00528949 /* ViewController.m */; };
+		907C60E11DF10BCB00528949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907C60DF1DF10BCB00528949 /* Main.storyboard */; };
+		907C60E41DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 907C60E21DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld */; };
+		907C60E61DF10BCB00528949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907C60E51DF10BCB00528949 /* Assets.xcassets */; };
+		907C60E91DF10BCB00528949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907C60E71DF10BCB00528949 /* LaunchScreen.storyboard */; };
+		907C60F41DF10BCB00528949 /* ColorCodeConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60F31DF10BCB00528949 /* ColorCodeConverterTests.m */; };
+		907C60FF1DF10BCB00528949 /* ColorCodeConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60FE1DF10BCB00528949 /* ColorCodeConverterUITests.m */; };
+		907C61111DF1106000528949 /* PaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C61101DF1106000528949 /* PaletteView.m */; };
+		907C61161DF1160D00528949 /* HexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C61151DF1160D00528949 /* HexView.m */; };
+		907C611C1DF116E300528949 /* RGBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C611B1DF116E300528949 /* RGBView.m */; };
+		907C611F1DF116F300528949 /* HSBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C611E1DF116F300528949 /* HSBView.m */; };
+		907C61221DF119DB00528949 /* ColorConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C61211DF119DB00528949 /* ColorConversions.m */; };
+		907C61271DF11F6500528949 /* HSBConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C61261DF11F6500528949 /* HSBConversions.m */; };
+		907C612C1DF121BD00528949 /* RGBConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C612B1DF121BD00528949 /* RGBConversions.m */; };
+		907C61301DF1220900528949 /* HexConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C612F1DF1220900528949 /* HexConversion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		907C60F01DF10BCB00528949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907C60CB1DF10BCB00528949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907C60D21DF10BCB00528949;
+			remoteInfo = ColorCodeConverter;
+		};
+		907C60FB1DF10BCB00528949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907C60CB1DF10BCB00528949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907C60D21DF10BCB00528949;
+			remoteInfo = ColorCodeConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		907C60D31DF10BCB00528949 /* ColorCodeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907C60D71DF10BCB00528949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		907C60D91DF10BCB00528949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		907C60DA1DF10BCB00528949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		907C60DC1DF10BCB00528949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		907C60DD1DF10BCB00528949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		907C60E01DF10BCB00528949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907C60E31DF10BCB00528949 /* ColorCodeConverter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorCodeConverter.xcdatamodel; sourceTree = "<group>"; };
+		907C60E51DF10BCB00528949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907C60E81DF10BCB00528949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		907C60EA1DF10BCB00528949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907C60EF1DF10BCB00528949 /* ColorCodeConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCodeConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907C60F31DF10BCB00528949 /* ColorCodeConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCodeConverterTests.m; sourceTree = "<group>"; };
+		907C60F51DF10BCB00528949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907C60FA1DF10BCB00528949 /* ColorCodeConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCodeConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907C60FE1DF10BCB00528949 /* ColorCodeConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCodeConverterUITests.m; sourceTree = "<group>"; };
+		907C61001DF10BCB00528949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907C610F1DF1106000528949 /* PaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteView.h; sourceTree = "<group>"; };
+		907C61101DF1106000528949 /* PaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteView.m; sourceTree = "<group>"; };
+		907C61141DF1160D00528949 /* HexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexView.h; sourceTree = "<group>"; };
+		907C61151DF1160D00528949 /* HexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexView.m; sourceTree = "<group>"; };
+		907C611A1DF116E300528949 /* RGBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBView.h; sourceTree = "<group>"; };
+		907C611B1DF116E300528949 /* RGBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBView.m; sourceTree = "<group>"; };
+		907C611D1DF116F300528949 /* HSBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBView.h; sourceTree = "<group>"; };
+		907C611E1DF116F300528949 /* HSBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBView.m; sourceTree = "<group>"; };
+		907C61201DF119DB00528949 /* ColorConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorConversions.h; sourceTree = "<group>"; };
+		907C61211DF119DB00528949 /* ColorConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorConversions.m; sourceTree = "<group>"; };
+		907C61251DF11F6500528949 /* HSBConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBConversions.h; sourceTree = "<group>"; };
+		907C61261DF11F6500528949 /* HSBConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBConversions.m; sourceTree = "<group>"; };
+		907C612A1DF121BD00528949 /* RGBConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBConversions.h; sourceTree = "<group>"; };
+		907C612B1DF121BD00528949 /* RGBConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBConversions.m; sourceTree = "<group>"; };
+		907C612E1DF1220900528949 /* HexConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexConversion.h; sourceTree = "<group>"; };
+		907C612F1DF1220900528949 /* HexConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexConversion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907C60D01DF10BCB00528949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60EC1DF10BCB00528949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60F71DF10BCB00528949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907C60CA1DF10BCB00528949 = {
+			isa = PBXGroup;
+			children = (
+				907C60D51DF10BCB00528949 /* ColorCodeConverter */,
+				907C60F21DF10BCB00528949 /* ColorCodeConverterTests */,
+				907C60FD1DF10BCB00528949 /* ColorCodeConverterUITests */,
+				907C60D41DF10BCB00528949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		907C60D41DF10BCB00528949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907C60D31DF10BCB00528949 /* ColorCodeConverter.app */,
+				907C60EF1DF10BCB00528949 /* ColorCodeConverterTests.xctest */,
+				907C60FA1DF10BCB00528949 /* ColorCodeConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907C60D51DF10BCB00528949 /* ColorCodeConverter */ = {
+			isa = PBXGroup;
+			children = (
+				907C60D91DF10BCB00528949 /* AppDelegate.h */,
+				907C60DA1DF10BCB00528949 /* AppDelegate.m */,
+				907C610D1DF10FAF00528949 /* Model */,
+				907C610E1DF10FB600528949 /* View */,
+				907C610C1DF10FA400528949 /* Controller */,
+				907C60DF1DF10BCB00528949 /* Main.storyboard */,
+				907C60E51DF10BCB00528949 /* Assets.xcassets */,
+				907C60E71DF10BCB00528949 /* LaunchScreen.storyboard */,
+				907C60EA1DF10BCB00528949 /* Info.plist */,
+				907C60E21DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld */,
+				907C60D61DF10BCB00528949 /* Supporting Files */,
+			);
+			path = ColorCodeConverter;
+			sourceTree = "<group>";
+		};
+		907C60D61DF10BCB00528949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				907C60D71DF10BCB00528949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		907C60F21DF10BCB00528949 /* ColorCodeConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				907C60F31DF10BCB00528949 /* ColorCodeConverterTests.m */,
+				907C60F51DF10BCB00528949 /* Info.plist */,
+			);
+			path = ColorCodeConverterTests;
+			sourceTree = "<group>";
+		};
+		907C60FD1DF10BCB00528949 /* ColorCodeConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				907C60FE1DF10BCB00528949 /* ColorCodeConverterUITests.m */,
+				907C61001DF10BCB00528949 /* Info.plist */,
+			);
+			path = ColorCodeConverterUITests;
+			sourceTree = "<group>";
+		};
+		907C610C1DF10FA400528949 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				907C60DC1DF10BCB00528949 /* ViewController.h */,
+				907C60DD1DF10BCB00528949 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		907C610D1DF10FAF00528949 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				907C612D1DF121EA00528949 /* HexConversion */,
+				907C61281DF1217900528949 /* RGBConversions */,
+				907C61241DF11F4D00528949 /* HSBConversions */,
+				907C61231DF11F3E00528949 /* ColorConversions */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		907C610E1DF10FB600528949 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				907C61131DF1153400528949 /* SectionViews */,
+				907C61121DF1152D00528949 /* PaletteView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		907C61121DF1152D00528949 /* PaletteView */ = {
+			isa = PBXGroup;
+			children = (
+				907C610F1DF1106000528949 /* PaletteView.h */,
+				907C61101DF1106000528949 /* PaletteView.m */,
+			);
+			name = PaletteView;
+			sourceTree = "<group>";
+		};
+		907C61131DF1153400528949 /* SectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				907C61191DF1163100528949 /* HSB Group */,
+				907C61181DF1162300528949 /* RGB View */,
+				907C61171DF1161100528949 /* HexView */,
+			);
+			name = SectionViews;
+			sourceTree = "<group>";
+		};
+		907C61171DF1161100528949 /* HexView */ = {
+			isa = PBXGroup;
+			children = (
+				907C61141DF1160D00528949 /* HexView.h */,
+				907C61151DF1160D00528949 /* HexView.m */,
+			);
+			name = HexView;
+			sourceTree = "<group>";
+		};
+		907C61181DF1162300528949 /* RGB View */ = {
+			isa = PBXGroup;
+			children = (
+				907C611A1DF116E300528949 /* RGBView.h */,
+				907C611B1DF116E300528949 /* RGBView.m */,
+			);
+			name = "RGB View";
+			sourceTree = "<group>";
+		};
+		907C61191DF1163100528949 /* HSB Group */ = {
+			isa = PBXGroup;
+			children = (
+				907C611D1DF116F300528949 /* HSBView.h */,
+				907C611E1DF116F300528949 /* HSBView.m */,
+			);
+			name = "HSB Group";
+			sourceTree = "<group>";
+		};
+		907C61231DF11F3E00528949 /* ColorConversions */ = {
+			isa = PBXGroup;
+			children = (
+				907C61201DF119DB00528949 /* ColorConversions.h */,
+				907C61211DF119DB00528949 /* ColorConversions.m */,
+			);
+			name = ColorConversions;
+			sourceTree = "<group>";
+		};
+		907C61241DF11F4D00528949 /* HSBConversions */ = {
+			isa = PBXGroup;
+			children = (
+				907C61251DF11F6500528949 /* HSBConversions.h */,
+				907C61261DF11F6500528949 /* HSBConversions.m */,
+			);
+			name = HSBConversions;
+			sourceTree = "<group>";
+		};
+		907C61281DF1217900528949 /* RGBConversions */ = {
+			isa = PBXGroup;
+			children = (
+				907C612A1DF121BD00528949 /* RGBConversions.h */,
+				907C612B1DF121BD00528949 /* RGBConversions.m */,
+			);
+			name = RGBConversions;
+			sourceTree = "<group>";
+		};
+		907C612D1DF121EA00528949 /* HexConversion */ = {
+			isa = PBXGroup;
+			children = (
+				907C612E1DF1220900528949 /* HexConversion.h */,
+				907C612F1DF1220900528949 /* HexConversion.m */,
+			);
+			name = HexConversion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907C60D21DF10BCB00528949 /* ColorCodeConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907C61031DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverter" */;
+			buildPhases = (
+				907C60CF1DF10BCB00528949 /* Sources */,
+				907C60D01DF10BCB00528949 /* Frameworks */,
+				907C60D11DF10BCB00528949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorCodeConverter;
+			productName = ColorCodeConverter;
+			productReference = 907C60D31DF10BCB00528949 /* ColorCodeConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		907C60EE1DF10BCB00528949 /* ColorCodeConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907C61061DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterTests" */;
+			buildPhases = (
+				907C60EB1DF10BCB00528949 /* Sources */,
+				907C60EC1DF10BCB00528949 /* Frameworks */,
+				907C60ED1DF10BCB00528949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907C60F11DF10BCB00528949 /* PBXTargetDependency */,
+			);
+			name = ColorCodeConverterTests;
+			productName = ColorCodeConverterTests;
+			productReference = 907C60EF1DF10BCB00528949 /* ColorCodeConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		907C60F91DF10BCB00528949 /* ColorCodeConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907C61091DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterUITests" */;
+			buildPhases = (
+				907C60F61DF10BCB00528949 /* Sources */,
+				907C60F71DF10BCB00528949 /* Frameworks */,
+				907C60F81DF10BCB00528949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907C60FC1DF10BCB00528949 /* PBXTargetDependency */,
+			);
+			name = ColorCodeConverterUITests;
+			productName = ColorCodeConverterUITests;
+			productReference = 907C60FA1DF10BCB00528949 /* ColorCodeConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907C60CB1DF10BCB00528949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Eli MArshall";
+				TargetAttributes = {
+					907C60D21DF10BCB00528949 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7FJN59S36F;
+						ProvisioningStyle = Automatic;
+					};
+					907C60EE1DF10BCB00528949 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7FJN59S36F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 907C60D21DF10BCB00528949;
+					};
+					907C60F91DF10BCB00528949 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7FJN59S36F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 907C60D21DF10BCB00528949;
+					};
+				};
+			};
+			buildConfigurationList = 907C60CE1DF10BCB00528949 /* Build configuration list for PBXProject "ColorCodeConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907C60CA1DF10BCB00528949;
+			productRefGroup = 907C60D41DF10BCB00528949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907C60D21DF10BCB00528949 /* ColorCodeConverter */,
+				907C60EE1DF10BCB00528949 /* ColorCodeConverterTests */,
+				907C60F91DF10BCB00528949 /* ColorCodeConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907C60D11DF10BCB00528949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907C60E91DF10BCB00528949 /* LaunchScreen.storyboard in Resources */,
+				907C60E61DF10BCB00528949 /* Assets.xcassets in Resources */,
+				907C60E11DF10BCB00528949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60ED1DF10BCB00528949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60F81DF10BCB00528949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907C60CF1DF10BCB00528949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907C61161DF1160D00528949 /* HexView.m in Sources */,
+				907C61301DF1220900528949 /* HexConversion.m in Sources */,
+				907C60DE1DF10BCB00528949 /* ViewController.m in Sources */,
+				907C61111DF1106000528949 /* PaletteView.m in Sources */,
+				907C60E41DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld in Sources */,
+				907C611F1DF116F300528949 /* HSBView.m in Sources */,
+				907C60DB1DF10BCB00528949 /* AppDelegate.m in Sources */,
+				907C611C1DF116E300528949 /* RGBView.m in Sources */,
+				907C612C1DF121BD00528949 /* RGBConversions.m in Sources */,
+				907C61271DF11F6500528949 /* HSBConversions.m in Sources */,
+				907C61221DF119DB00528949 /* ColorConversions.m in Sources */,
+				907C60D81DF10BCB00528949 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60EB1DF10BCB00528949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907C60F41DF10BCB00528949 /* ColorCodeConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907C60F61DF10BCB00528949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907C60FF1DF10BCB00528949 /* ColorCodeConverterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907C60F11DF10BCB00528949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907C60D21DF10BCB00528949 /* ColorCodeConverter */;
+			targetProxy = 907C60F01DF10BCB00528949 /* PBXContainerItemProxy */;
+		};
+		907C60FC1DF10BCB00528949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907C60D21DF10BCB00528949 /* ColorCodeConverter */;
+			targetProxy = 907C60FB1DF10BCB00528949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		907C60DF1DF10BCB00528949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907C60E01DF10BCB00528949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		907C60E71DF10BCB00528949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907C60E81DF10BCB00528949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		907C61011DF10BCB00528949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		907C61021DF10BCB00528949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907C61041DF10BCB00528949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		907C61051DF10BCB00528949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		907C61071DF10BCB00528949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCodeConverter.app/ColorCodeConverter";
+			};
+			name = Debug;
+		};
+		907C61081DF10BCB00528949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCodeConverter.app/ColorCodeConverter";
+			};
+			name = Release;
+		};
+		907C610A1DF10BCB00528949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorCodeConverter;
+			};
+			name = Debug;
+		};
+		907C610B1DF10BCB00528949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7FJN59S36F;
+				INFOPLIST_FILE = ColorCodeConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.ColorCodeConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorCodeConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907C60CE1DF10BCB00528949 /* Build configuration list for PBXProject "ColorCodeConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907C61011DF10BCB00528949 /* Debug */,
+				907C61021DF10BCB00528949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907C61031DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907C61041DF10BCB00528949 /* Debug */,
+				907C61051DF10BCB00528949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907C61061DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907C61071DF10BCB00528949 /* Debug */,
+				907C61081DF10BCB00528949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907C61091DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907C610A1DF10BCB00528949 /* Debug */,
+				907C610B1DF10BCB00528949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		907C60E21DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				907C60E31DF10BCB00528949 /* ColorCodeConverter.xcdatamodel */,
+			);
+			currentVersion = 907C60E31DF10BCB00528949 /* ColorCodeConverter.xcdatamodel */;
+			path = ColorCodeConverter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 907C60CB1DF10BCB00528949 /* Project object */;
+}
