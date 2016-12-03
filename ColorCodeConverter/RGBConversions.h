@@ -15,8 +15,8 @@
 @property (nonatomic) CGFloat greenValue;
 @property (nonatomic) CGFloat blueValue;
 
-- (NSString *) RGBToHex;
-- (NSDictionary *) RGBToHSB;
+- (NSString *) RGBToHexWithRed:(float) red Green:(float) green Blue:(float) blue;
+- (NSMutableDictionary *) RGBToHSBWithRed:(float) red Green:(float) green Blue:(float) blue;
 
 
 @end

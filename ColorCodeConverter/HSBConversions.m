@@ -23,7 +23,7 @@
     }
     return self;
 }
-
+//HSB to hex conversion
 -(NSString *)HSBToHexWithHue:(float)hue Saturation:(float)saturation Brightness:(float)brightness {
     
     UIColor *color = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1.0];
@@ -40,14 +40,26 @@
             lroundf(b * 255)];
     
 }
-//-(NSDictionary *)HSBToRGBWithHue:(float)hue Saturation:(float)saturation Brightness:(float)brightness {
-//
-//    UIColor *hsbColor = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1.0];
-//    
-//    NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys:<#(nonnull id), ...#>, nil]
-//    
-//    [hsbColor getRed:<#(nullable CGFloat *)#> green:<#(nullable CGFloat *)#> blue:<#(nullable CGFloat *)#> alpha:<#(nullable CGFloat *)#>];
-//}
+//HSB to rgb conversion
+-(NSMutableDictionary *)HSBToRGBWithHue:(float)hue Saturation:(float)saturation Brightness:(float)brightness {
+
+    UIColor *hsbColor = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1.0];
+    
+    const CGFloat *components = CGColorGetComponents(hsbColor.CGColor);
+
+    
+    CGFloat red = components[0];
+    CGFloat green = components[1];
+    CGFloat blue = components[2];
+    
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    [dict setObject:[NSNumber numberWithFloat:red] forKey:@"Red"];
+    [dict setObject:[NSNumber numberWithFloat:green] forKey:@"Green"];
+    [dict setObject:[NSNumber numberWithFloat:blue] forKey:@"Blue"];
+    
+    return dict;
+    
+}
 
 
 @end

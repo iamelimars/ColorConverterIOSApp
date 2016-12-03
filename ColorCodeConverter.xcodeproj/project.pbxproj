@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9044B6891DF258CA00021FE8 /* HSBConversionsUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */; };
 		907C60D81DF10BCB00528949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60D71DF10BCB00528949 /* main.m */; };
 		907C60DB1DF10BCB00528949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DA1DF10BCB00528949 /* AppDelegate.m */; };
 		907C60DE1DF10BCB00528949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DD1DF10BCB00528949 /* ViewController.m */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBConversionsUnitTests.m; sourceTree = "<group>"; };
 		907C60D31DF10BCB00528949 /* ColorCodeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907C60D71DF10BCB00528949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		907C60D91DF10BCB00528949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				907C60F31DF10BCB00528949 /* ColorCodeConverterTests.m */,
 				907C60F51DF10BCB00528949 /* Info.plist */,
+				9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */,
 			);
 			path = ColorCodeConverterTests;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				907C60F41DF10BCB00528949 /* ColorCodeConverterTests.m in Sources */,
+				9044B6891DF258CA00021FE8 /* HSBConversionsUnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +668,7 @@
 				907C61051DF10BCB00528949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907C61061DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +677,7 @@
 				907C61081DF10BCB00528949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907C61091DF10BCB00528949 /* Build configuration list for PBXNativeTarget "ColorCodeConverterUITests" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +686,7 @@
 				907C610B1DF10BCB00528949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

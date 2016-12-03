@@ -16,6 +16,6 @@
 @property (nonatomic) CGFloat brightnessValue;
 
 - (NSString *)HSBToHexWithHue:(float) hue Saturation:(float) saturation Brightness:(float) brightness;
-- (NSDictionary *)HSBToRGBWithHue:(float)hue Saturation:(float)saturation Brightness:(float)brightness;
+- (NSMutableDictionary *)HSBToRGBWithHue:(float)hue Saturation:(float)saturation Brightness:(float)brightness;
 
 @end
