@@ -9,9 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "PaletteView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) PaletteView *colorsView;
+
+@property (strong, nonatomic) UITextField *rgbTextField;
+@property (strong, nonatomic) UITextField *hexTextField;
+@property (strong, nonatomic) UITextField *hsbTextField;
+
 
 @end
 
