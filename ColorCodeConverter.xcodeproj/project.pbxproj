@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9001FC561DFFA1C60032FDF1 /* HexConversionsUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001FC551DFFA1C60032FDF1 /* HexConversionsUnitTests.m */; };
 		9044B6891DF258CA00021FE8 /* HSBConversionsUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */; };
+		9044B68B1DF27EE200021FE8 /* RGBConversionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044B68A1DF27EE200021FE8 /* RGBConversionsTests.m */; };
 		907C60D81DF10BCB00528949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60D71DF10BCB00528949 /* main.m */; };
 		907C60DB1DF10BCB00528949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DA1DF10BCB00528949 /* AppDelegate.m */; };
 		907C60DE1DF10BCB00528949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60DD1DF10BCB00528949 /* ViewController.m */; };
@@ -45,7 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9001FC551DFFA1C60032FDF1 /* HexConversionsUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexConversionsUnitTests.m; sourceTree = "<group>"; };
 		9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBConversionsUnitTests.m; sourceTree = "<group>"; };
+		9044B68A1DF27EE200021FE8 /* RGBConversionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBConversionsTests.m; sourceTree = "<group>"; };
 		907C60D31DF10BCB00528949 /* ColorCodeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907C60D71DF10BCB00528949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		907C60D91DF10BCB00528949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,8 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				907C60F31DF10BCB00528949 /* ColorCodeConverterTests.m */,
-				907C60F51DF10BCB00528949 /* Info.plist */,
 				9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */,
+				9044B68A1DF27EE200021FE8 /* RGBConversionsTests.m */,
+				9001FC551DFFA1C60032FDF1 /* HexConversionsUnitTests.m */,
+				907C60F51DF10BCB00528949 /* Info.plist */,
 			);
 			path = ColorCodeConverterTests;
 			sourceTree = "<group>";
@@ -438,7 +444,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				907C60F41DF10BCB00528949 /* ColorCodeConverterTests.m in Sources */,
+				9001FC561DFFA1C60032FDF1 /* HexConversionsUnitTests.m in Sources */,
 				9044B6891DF258CA00021FE8 /* HSBConversionsUnitTests.m in Sources */,
+				9044B68B1DF27EE200021FE8 /* RGBConversionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

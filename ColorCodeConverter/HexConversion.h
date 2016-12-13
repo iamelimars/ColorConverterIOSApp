@@ -13,7 +13,7 @@
 
 @property (strong ,nonatomic) NSString *hexString;
 
-- (NSDictionary *) hexToRGB;
-- (NSDictionary *) hexToHSB;
+- (NSDictionary *) hexToRGBWithString:(NSString *) hexString;
+- (NSDictionary *) hexToHSBWithString:(NSString *) hexString;
 
 @end
