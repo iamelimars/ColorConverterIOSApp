@@ -8,14 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import "PaletteView.h"
+#import "HexConversion.h"
+#import "RGBConversions.h"
+#import "HSBConversions.h"
+#import "UIColor+HexToColor.h"
+#import "ConversionTextField.h"
 
 @interface ViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) PaletteView *colorsView;
 
-@property (strong, nonatomic) UITextField *rgbTextField;
-@property (strong, nonatomic) UITextField *hexTextField;
-@property (strong, nonatomic) UITextField *hsbTextField;
+@property (strong, nonatomic) HexConversion *hexConvert;
+@property (strong, nonatomic) RGBConversions *rgbConvert;
+@property (strong, nonatomic) HSBConversions *hsbConvert;
+
+@property (strong, nonatomic) ConversionTextField *rgbTextField;
+@property (strong, nonatomic) ConversionTextField *hexTextField;
+@property (strong, nonatomic) ConversionTextField *hsbTextField;
 
 
 @end

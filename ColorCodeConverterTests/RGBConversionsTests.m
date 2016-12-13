@@ -33,6 +33,10 @@
     
     NSString *hexString = [self.rgbConvert RGBToHexWithRed:51 Green:107 Blue:135];
     
+    NSString *string = [self.rgbConvert RGBToHexWithString:@""];
+    
+    NSLog(@"%@", string);
+    
     NSLog(@"%@", hexString);
     
     NSString *expectedHexString = @"#336B87";

@@ -18,5 +18,7 @@
 - (NSString *) RGBToHexWithRed:(float) red Green:(float) green Blue:(float) blue;
 - (NSMutableDictionary *) RGBToHSBWithRed:(float) red Green:(float) green Blue:(float) blue;
 
+- (NSString *) RGBToHexWithString:(NSString *) string;
+- (NSString *) RGBToHsBWithString:(NSString *) string;
 
 @end

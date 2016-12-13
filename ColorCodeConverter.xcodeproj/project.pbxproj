@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9001FC561DFFA1C60032FDF1 /* HexConversionsUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001FC551DFFA1C60032FDF1 /* HexConversionsUnitTests.m */; };
+		902CFEB71E007B97002939FC /* UIColor+HexToColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 902CFEB61E007B97002939FC /* UIColor+HexToColor.m */; };
+		902CFEBA1E009BA2002939FC /* ConversionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 902CFEB91E009BA2002939FC /* ConversionTextField.m */; };
 		9044B6891DF258CA00021FE8 /* HSBConversionsUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */; };
 		9044B68B1DF27EE200021FE8 /* RGBConversionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044B68A1DF27EE200021FE8 /* RGBConversionsTests.m */; };
 		907C60D81DF10BCB00528949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C60D71DF10BCB00528949 /* main.m */; };
@@ -48,6 +50,10 @@
 
 /* Begin PBXFileReference section */
 		9001FC551DFFA1C60032FDF1 /* HexConversionsUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexConversionsUnitTests.m; sourceTree = "<group>"; };
+		902CFEB51E007B97002939FC /* UIColor+HexToColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToColor.h"; sourceTree = "<group>"; };
+		902CFEB61E007B97002939FC /* UIColor+HexToColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToColor.m"; sourceTree = "<group>"; };
+		902CFEB81E009BA2002939FC /* ConversionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionTextField.h; sourceTree = "<group>"; };
+		902CFEB91E009BA2002939FC /* ConversionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionTextField.m; sourceTree = "<group>"; };
 		9044B6881DF258CA00021FE8 /* HSBConversionsUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBConversionsUnitTests.m; sourceTree = "<group>"; };
 		9044B68A1DF27EE200021FE8 /* RGBConversionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBConversionsTests.m; sourceTree = "<group>"; };
 		907C60D31DF10BCB00528949 /* ColorCodeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		902CFEB41E007B55002939FC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				902CFEB51E007B97002939FC /* UIColor+HexToColor.h */,
+				902CFEB61E007B97002939FC /* UIColor+HexToColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		907C60CA1DF10BCB00528949 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +150,7 @@
 			children = (
 				907C60D91DF10BCB00528949 /* AppDelegate.h */,
 				907C60DA1DF10BCB00528949 /* AppDelegate.m */,
+				902CFEB41E007B55002939FC /* Category */,
 				907C610D1DF10FAF00528949 /* Model */,
 				907C610E1DF10FB600528949 /* View */,
 				907C610C1DF10FA400528949 /* Controller */,
@@ -202,6 +218,8 @@
 			children = (
 				907C61131DF1153400528949 /* SectionViews */,
 				907C61121DF1152D00528949 /* PaletteView */,
+				902CFEB81E009BA2002939FC /* ConversionTextField.h */,
+				902CFEB91E009BA2002939FC /* ConversionTextField.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -431,10 +449,12 @@
 				907C60E41DF10BCB00528949 /* ColorCodeConverter.xcdatamodeld in Sources */,
 				907C611F1DF116F300528949 /* HSBView.m in Sources */,
 				907C60DB1DF10BCB00528949 /* AppDelegate.m in Sources */,
+				902CFEBA1E009BA2002939FC /* ConversionTextField.m in Sources */,
 				907C611C1DF116E300528949 /* RGBView.m in Sources */,
 				907C612C1DF121BD00528949 /* RGBConversions.m in Sources */,
 				907C61271DF11F6500528949 /* HSBConversions.m in Sources */,
 				907C61221DF119DB00528949 /* ColorConversions.m in Sources */,
+				902CFEB71E007B97002939FC /* UIColor+HexToColor.m in Sources */,
 				907C60D81DF10BCB00528949 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

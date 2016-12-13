@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+//    [[UITextField appearance] setDefaultTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir-Book" size:15.0],
+//                                                         
+//                                                         
+//                                                         
+//                                                         }];
     return YES;
 }
 
