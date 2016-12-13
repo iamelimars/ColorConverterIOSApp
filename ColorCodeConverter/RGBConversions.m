@@ -12,7 +12,7 @@
 
 -(NSString *)RGBToHexWithRed:(float)red Green:(float)green Blue:(float)blue {
     
-    UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    UIColor *color = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
     
     const CGFloat *components = CGColorGetComponents(color.CGColor);
     
@@ -30,7 +30,7 @@
 
 -(NSMutableDictionary *)RGBToHSBWithRed:(float)red Green:(float)green Blue:(float)blue {
     
-    UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    UIColor *color = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
     
     CGFloat hue;
     CGFloat saturation;
@@ -39,10 +39,15 @@
     
     [color getHue:&hue saturation:&saturation brightness:&brightness alpha:&alpha];
     
+    hue = hue * 360;
+    saturation = saturation * 100;
+    brightness = brightness * 100;
+    
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-    [dict setObject:[NSNumber numberWithFloat:hue] forKey:@"Hue"];
-    [dict setObject:[NSNumber numberWithFloat:saturation] forKey:@"Saturation"];
-    [dict setObject:[NSNumber numberWithFloat:brightness] forKey:@"Brightness"];
+    [dict setObject:[NSNumber numberWithFloat:lroundf(hue)] forKey:@"Hue"];
+    [dict setObject:[NSNumber numberWithFloat:lroundf(saturation)] forKey:@"Saturation"];
+    [dict setObject:[NSNumber numberWithFloat:lroundf(brightness)] forKey:@"Brightness"];
+
     
     return dict;
     

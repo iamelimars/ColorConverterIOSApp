@@ -31,14 +31,35 @@
 
 - (void)testRGBToHex {
     
+    NSString *hexString = [self.rgbConvert RGBToHexWithRed:51 Green:107 Blue:135];
     
+    NSLog(@"%@", hexString);
     
+    NSString *expectedHexString = @"#336B87";
+    
+    XCTAssertEqualObjects(hexString, expectedHexString);
 }
 
 - (void)testRGBToHSB {
     
+    NSMutableDictionary *dict =  [self.rgbConvert RGBToHSBWithRed:144 Green:175 Blue:197];
     
+    int hue = [[dict objectForKey:@"Hue"] intValue];
+    int saturation = [[dict objectForKey:@"Saturation"] intValue];
+    int brightness = [[dict objectForKey:@"Brightness"] intValue];
     
+    NSLog(@"%d", hue);
+    NSLog(@"%d", saturation);
+    NSLog(@"%d", brightness);
+    
+    int expectedHue = 205;
+    int expectedSaturation = 27;
+    int expectedBrightness = 77;
+
+    XCTAssertEqual(expectedHue, hue);
+    XCTAssertEqual(expectedSaturation, saturation);
+    XCTAssertEqual(expectedBrightness, brightness);
+        
 }
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
